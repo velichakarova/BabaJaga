@@ -23,6 +23,7 @@
 .home_name {
   font-size: 5rem;
   padding-bottom: 1rem;
+  margin-bottom: 1rem;
   margin-top: 1rem;
   border-bottom: 2px solid #fff;
 }
@@ -160,6 +161,25 @@
   transition-delay: 0.55s;
 }
 
+.service {
+  padding-bottom: 2rem;
+}
+
+.service__baba {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(255, 127, 80, 0.3)), url("../img/naomi-hebert-MP0bgaS_d1c-unsplash.jpg") center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.service p {
+  margin-block-end: 2rem;
+}
+
 body {
   background: #272727;
   color: #fff;
@@ -175,6 +195,10 @@ h1, h2, h3 {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+.text-secondary {
+  color: #FF7F50;
 }
 
 header {
