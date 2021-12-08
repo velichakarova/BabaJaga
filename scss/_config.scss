@@ -7,7 +7,7 @@ $secondary-color:#FF7F50;
 }
 
 @mixin transition-ease {
-    transition: all 0.5s easy-in-out;
+    transition: all 0.5s ease-in-out;
 }
 @function set-text-color($color){
     @if (lightness($color)>40%){
